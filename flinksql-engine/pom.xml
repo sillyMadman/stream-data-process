@@ -4,7 +4,7 @@
     <parent>
         <groupId>com.sfz.stream</groupId>
         <artifactId>stream-data-process</artifactId>
-        <version>0.1.0</version>
+        <version>0.1.1</version>
     </parent>
     <artifactId>flinksql-engine</artifactId>
     <version>0.1.0</version>
