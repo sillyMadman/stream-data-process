@@ -84,6 +84,6 @@ class SubmitArguments(args: Array[String]) extends Arguments with Logging {
   }
 
 
-  override def toString = s"SubmitArguments($sourceConnector,$sinkConnector,$kafkaVersion,$sinkKafkaServers, $sinkKafkaServers, $sourceTopic, $sinkTopic, $sourceGroupId, $sourceSchemaInfo, $sinkSchemaInfo, $sql)"
+  override def toString = s"SubmitArguments($sourceConnector,$sinkConnector,$kafkaVersion,$sourceKafkaServers, $sinkKafkaServers, $sourceTopic, $sinkTopic, $sourceGroupId, $sourceSchemaInfo, $sinkSchemaInfo, $sql)"
 }
 
