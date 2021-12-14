@@ -57,7 +57,7 @@ object SimulateKafkaData {
 
     val consumer = new KafkaConsumer[String, String](prop)
     val topics = new util.ArrayList[String]
-    topics.add("streamdata-source-test")
+    topics.add("streamdata-sink-test")
     consumer.subscribe(topics)
 
     while (true) {
@@ -90,7 +90,7 @@ object SimulateKafkaData {
 
     val producer = new KafkaProducer[String, String](prop)
 
-    val topic = "streamdata-sink-test"
+    val topic = "streamdata-source-test"
 
     while (true) {
       for (age <- 0 to 100) {

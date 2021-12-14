@@ -47,9 +47,9 @@ kafka
 -c2
 kafka
 -t1
-streamdata-sink-test
--t2
 streamdata-source-test
+-t2
+streamdata-sink-test
 -g
 test
 -ss1
